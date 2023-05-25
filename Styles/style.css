@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: rgba(0, 167, 80, 0.7);
+}
+
+#welcome{
+    color: white;
+}
+
+#username{
+    margin: 40px;
+    padding: 0 7px;
+    width: 70%;
+    border: none;
+    border: 2px white solid;
+    border-radius: 5px;
+    color: white;
+    background: rgba(0, 167, 80, 0);
+    transition: 0.25s;
+}
+#username:focus{
+    outline: none;
+    border-color: #EE161F;
+    color: #EE161F;
+}
+#username::placeholder{
+    color: white;
+}
+
+
+#start{
+    width: 70%;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 167, 80, 0);
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.15s;
+}
+#start:hover{
+    cursor: pointer;
+    border-color: #EE161F;
+    color: #EE161F;
+}
+
+.c-item{
+    height: 400px;
+    min-width: 400px;
+    max-width: 400px;
+}
+.c-img{
+    height: 400px;
+    object-fit: scale-down;
+}
+
+.c-item h5,
+.c-item p{
+    color: #EE161F;
+}
